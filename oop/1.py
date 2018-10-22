@@ -28,6 +28,7 @@ class EmplAddrBookEntry(AddrBookEntry):
 
     def updateEmail(self, newem):
         self.email = newem
+
     def __repr__(self):
         return self.empid
 
